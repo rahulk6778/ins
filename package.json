@@ -1,0 +1,22 @@
+{
+    "name": "playbeat-backend",
+    "version": "1.0.0",
+    "description": "PlayBeat Digital - Complete Professional Backend",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "playbeat",
+        "marketplace",
+        "digital-products",
+        "api"
+    ],
+    "author": "PlayBeat Digital",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5"
+    }
+}
