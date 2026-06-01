@@ -1,0 +1,474 @@
+{
+  "categories": [
+    {
+      "id": "games",
+      "name": "Games",
+      "emoji": "🎮",
+      "products": [
+        {
+          "id": "elden-ring",
+          "name": "Elden Ring",
+          "price": 59.99,
+          "description": "Open-world action RPG developed by FromSoftware",
+          "image": "https://via.placeholder.com/250x350?text=Elden+Ring",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["action", "rpg", "open-world"]
+        },
+        {
+          "id": "cyberpunk-2077",
+          "name": "Cyberpunk 2077",
+          "price": 49.99,
+          "description": "Futuristic action RPG set in Night City",
+          "image": "https://via.placeholder.com/250x350?text=Cyberpunk+2077",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["action", "rpg", "cyberpunk"]
+        },
+        {
+          "id": "starfield",
+          "name": "Starfield",
+          "price": 69.99,
+          "description": "Space exploration RPG by Bethesda",
+          "image": "https://via.placeholder.com/250x350?text=Starfield",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["action", "rpg", "space"]
+        },
+        {
+          "id": "baldurs-gate-3",
+          "name": "Baldur's Gate 3",
+          "price": 59.99,
+          "description": "Epic fantasy RPG with deep storytelling",
+          "image": "https://via.placeholder.com/250x350?text=Baldurs+Gate+3",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["rpg", "fantasy", "story-driven"]
+        }
+      ]
+    },
+    {
+      "id": "gift-cards",
+      "name": "Gift Cards",
+      "emoji": "🎁",
+      "products": [
+        {
+          "id": "steam-50",
+          "name": "Steam $50 Gift Card",
+          "price": 50.00,
+          "description": "Digital gift card for Steam platform",
+          "image": "https://via.placeholder.com/250x350?text=Steam+50",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["gift-card", "gaming"]
+        },
+        {
+          "id": "playstation-100",
+          "name": "PlayStation $100 Gift Card",
+          "price": 100.00,
+          "description": "PlayStation Network gift card",
+          "image": "https://via.placeholder.com/250x350?text=PlayStation+100",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["gift-card", "playstation"]
+        },
+        {
+          "id": "xbox-gamepass",
+          "name": "Xbox Game Pass Ultimate",
+          "price": 16.99,
+          "description": "Monthly subscription for Xbox games",
+          "image": "https://via.placeholder.com/250x350?text=Xbox+GamePass",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["subscription", "xbox"]
+        },
+        {
+          "id": "nintendo-eshop",
+          "name": "Nintendo eShop $20",
+          "price": 20.00,
+          "description": "Digital gift card for Nintendo Switch games",
+          "image": "https://via.placeholder.com/250x350?text=Nintendo+eShop",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["gift-card", "nintendo"]
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "name": "Software",
+      "emoji": "💻",
+      "products": [
+        {
+          "id": "windows-11-pro",
+          "name": "Windows 11 Pro",
+          "price": 199.99,
+          "description": "Latest Windows operating system",
+          "image": "https://via.placeholder.com/250x350?text=Windows+11+Pro",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["operating-system", "windows"]
+        },
+        {
+          "id": "office-365",
+          "name": "Microsoft Office 365",
+          "price": 99.99,
+          "description": "Productivity suite with Word, Excel, PowerPoint",
+          "image": "https://via.placeholder.com/250x350?text=Office+365",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["productivity", "microsoft"]
+        },
+        {
+          "id": "antivirus-pro",
+          "name": "Antivirus Pro",
+          "price": 49.99,
+          "description": "Advanced security and malware protection",
+          "image": "https://via.placeholder.com/250x350?text=Antivirus+Pro",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["security", "antivirus"]
+        },
+        {
+          "id": "vpn-pro",
+          "name": "VPN Pro",
+          "price": 79.99,
+          "description": "Secure VPN with unlimited bandwidth",
+          "image": "https://via.placeholder.com/250x350?text=VPN+Pro",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["security", "vpn"]
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI Tools",
+      "emoji": "🤖",
+      "products": [
+        {
+          "id": "chatgpt-plus",
+          "name": "ChatGPT Plus",
+          "price": 20.00,
+          "description": "Premium AI assistant with advanced features",
+          "image": "https://via.placeholder.com/250x350?text=ChatGPT+Plus",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["ai", "chatbot"]
+        },
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "price": 30.00,
+          "description": "AI image generation tool",
+          "image": "https://via.placeholder.com/250x350?text=Midjourney",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["ai", "image-generation"]
+        },
+        {
+          "id": "copilot-pro",
+          "name": "Copilot Pro",
+          "price": 20.00,
+          "description": "Microsoft AI coding assistant",
+          "image": "https://via.placeholder.com/250x350?text=Copilot+Pro",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["ai", "coding"]
+        },
+        {
+          "id": "adobe-firefly",
+          "name": "Adobe Firefly",
+          "price": 9.99,
+          "description": "Creative AI for design tools",
+          "image": "https://via.placeholder.com/250x350?text=Adobe+Firefly",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["ai", "design"]
+        }
+      ]
+    },
+    {
+      "id": "game-items",
+      "name": "Game Items",
+      "emoji": "🎯",
+      "products": [
+        {
+          "id": "battle-pass",
+          "name": "Battle Pass Premium",
+          "price": 9.99,
+          "description": "Premium battle pass with exclusive rewards",
+          "image": "https://via.placeholder.com/250x350?text=Battle+Pass",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["in-game", "cosmetics"]
+        },
+        {
+          "id": "cosmetics-bundle",
+          "name": "Premium Cosmetics Bundle",
+          "price": 24.99,
+          "description": "Exclusive skins and cosmetics",
+          "image": "https://via.placeholder.com/250x350?text=Cosmetics+Bundle",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["cosmetics", "skins"]
+        },
+        {
+          "id": "gold-bundle",
+          "name": "Gold Bundle 5000",
+          "price": 49.99,
+          "description": "In-game currency package",
+          "image": "https://via.placeholder.com/250x350?text=Gold+Bundle",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["currency", "gold"]
+        },
+        {
+          "id": "weapons-pack",
+          "name": "Legendary Weapons Pack",
+          "price": 39.99,
+          "description": "Collection of legendary in-game weapons",
+          "image": "https://via.placeholder.com/250x350?text=Weapons+Pack",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["weapons", "legendary"]
+        }
+      ]
+    },
+    {
+      "id": "accounts",
+      "name": "Accounts",
+      "emoji": "👤",
+      "products": [
+        {
+          "id": "xbox-gamepass-ultimate",
+          "name": "Xbox Game Pass Ultimate",
+          "price": 16.99,
+          "description": "Monthly subscription with Game Pass + Xbox Live Gold",
+          "image": "https://via.placeholder.com/250x350?text=Xbox+Ultimate",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["subscription", "xbox"]
+        },
+        {
+          "id": "playstation-plus-extra",
+          "name": "PlayStation Plus Extra",
+          "price": 14.99,
+          "description": "Premium PlayStation subscription",
+          "image": "https://via.placeholder.com/250x350?text=PS+Plus+Extra",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["subscription", "playstation"]
+        },
+        {
+          "id": "nintendo-online",
+          "name": "Nintendo Switch Online",
+          "price": 7.99,
+          "description": "Online gaming and classic games",
+          "image": "https://via.placeholder.com/250x350?text=Nintendo+Online",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["subscription", "nintendo"]
+        },
+        {
+          "id": "discord-nitro",
+          "name": "Discord Nitro",
+          "price": 9.99,
+          "description": "Premium Discord membership",
+          "image": "https://via.placeholder.com/250x350?text=Discord+Nitro",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["subscription", "discord"]
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "name": "Subscriptions",
+      "emoji": "📺",
+      "products": [
+        {
+          "id": "netflix-premium",
+          "name": "Netflix Premium",
+          "price": 15.49,
+          "description": "Monthly streaming with 4K and downloads",
+          "image": "https://via.placeholder.com/250x350?text=Netflix+Premium",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["streaming", "video"]
+        },
+        {
+          "id": "spotify-premium",
+          "name": "Spotify Premium",
+          "price": 11.99,
+          "description": "Unlimited music streaming without ads",
+          "image": "https://via.placeholder.com/250x350?text=Spotify+Premium",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["streaming", "music"]
+        },
+        {
+          "id": "youtube-premium",
+          "name": "YouTube Premium",
+          "price": 14.99,
+          "description": "Ad-free videos and offline viewing",
+          "image": "https://via.placeholder.com/250x350?text=YouTube+Premium",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["streaming", "video"]
+        },
+        {
+          "id": "adobe-cc",
+          "name": "Adobe Creative Cloud",
+          "price": 59.99,
+          "description": "Full suite of creative applications",
+          "image": "https://via.placeholder.com/250x350?text=Adobe+CC",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["design", "creative"]
+        }
+      ]
+    },
+    {
+      "id": "top-up",
+      "name": "Mobile Top Up",
+      "emoji": "📱",
+      "products": [
+        {
+          "id": "data-5gb",
+          "name": "Data 5GB",
+          "price": 4.99,
+          "description": "5GB mobile data package",
+          "image": "https://via.placeholder.com/250x350?text=Data+5GB",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["mobile", "data"]
+        },
+        {
+          "id": "data-10gb",
+          "name": "Data 10GB",
+          "price": 8.99,
+          "description": "10GB mobile data package",
+          "image": "https://via.placeholder.com/250x350?text=Data+10GB",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["mobile", "data"]
+        },
+        {
+          "id": "data-30gb",
+          "name": "Data 30GB",
+          "price": 19.99,
+          "description": "30GB mobile data package",
+          "image": "https://via.placeholder.com/250x350?text=Data+30GB",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["mobile", "data"]
+        },
+        {
+          "id": "intl-roaming",
+          "name": "International Roaming",
+          "price": 29.99,
+          "description": "International roaming package",
+          "image": "https://via.placeholder.com/250x350?text=Intl+Roaming",
+          "rating": 4.5,
+          "inStock": true,
+          "tags": ["mobile", "roaming"]
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "name": "Trending",
+      "emoji": "🔥",
+      "products": [
+        {
+          "id": "trending-baldurs",
+          "name": "Baldur's Gate 3",
+          "price": 59.99,
+          "description": "Epic fantasy RPG - Currently Trending #1",
+          "image": "https://via.placeholder.com/250x350?text=Trending+BG3",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["trending", "rpg"]
+        },
+        {
+          "id": "trending-chatgpt",
+          "name": "ChatGPT Plus",
+          "price": 20.00,
+          "description": "AI Assistant - Currently Trending #2",
+          "image": "https://via.placeholder.com/250x350?text=Trending+ChatGPT",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["trending", "ai"]
+        },
+        {
+          "id": "trending-helldivers",
+          "name": "Helldivers 2",
+          "price": 39.99,
+          "description": "Co-op Shooter - Currently Trending #3",
+          "image": "https://via.placeholder.com/250x350?text=Helldivers+2",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["trending", "shooter"]
+        },
+        {
+          "id": "trending-ffxvi",
+          "name": "Final Fantasy XVI",
+          "price": 69.99,
+          "description": "Action RPG - Currently Trending #4",
+          "image": "https://via.placeholder.com/250x350?text=FF+XVI",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["trending", "rpg"]
+        }
+      ]
+    },
+    {
+      "id": "best-value",
+      "name": "Best Value",
+      "emoji": "💎",
+      "products": [
+        {
+          "id": "value-bundle",
+          "name": "Value Gaming Bundle",
+          "price": 99.99,
+          "description": "3 games + 1 month subscription",
+          "image": "https://via.placeholder.com/250x350?text=Value+Bundle",
+          "rating": 4.8,
+          "inStock": true,
+          "tags": ["bundle", "value"]
+        },
+        {
+          "id": "value-ultimate-pass",
+          "name": "Ultimate Gaming Pass",
+          "price": 149.99,
+          "description": "Yearly pass with all services included",
+          "image": "https://via.placeholder.com/250x350?text=Ultimate+Pass",
+          "rating": 4.9,
+          "inStock": true,
+          "tags": ["subscription", "bundle"]
+        },
+        {
+          "id": "value-creator",
+          "name": "Creator Essentials",
+          "price": 79.99,
+          "description": "Software bundle for content creators",
+          "image": "https://via.placeholder.com/250x350?text=Creator+Essentials",
+          "rating": 4.7,
+          "inStock": true,
+          "tags": ["software", "bundle"]
+        },
+        {
+          "id": "value-entertainment",
+          "name": "Entertainment Plus",
+          "price": 39.99,
+          "description": "3 streaming services for 3 months",
+          "image": "https://via.placeholder.com/250x350?text=Entertainment+Plus",
+          "rating": 4.6,
+          "inStock": true,
+          "tags": ["streaming", "bundle"]
+        }
+      ]
+    }
+  ]
+}
